@@ -1,0 +1,10 @@
+public class day40{
+    public  static void main(String[]args){
+        HashMap<Integer,String> map= new HashMap<>();
+        map.put(1, "java");
+        map.put(2, "python");
+        map.put(3, "springBoot");
+        System.out.println(map);
+
+    }
+}
