@@ -1,0 +1,18 @@
+import java.lang.reflect.Array;
+import java.util.*;
+
+import javax.swing.plaf.synth.SynthTextAreaUI;
+
+public class day40{
+    public static  void main(String[]args){
+        ArrayList<Integer>list= new ArrayList<>();
+        list.add(10);
+        list.add(20);
+        ArrayList<Integer>list1= new ArrayList<>();
+        list1.add(30);
+        list.add(40);
+
+        list.addAll(list1);
+        System.out.println("Merged List: " + list);
+    }
+}
